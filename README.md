@@ -2,6 +2,7 @@
 1. 熟悉数据集
 2. 数据清洗
 3. 构建词典
+4. 训练词向量
 
 #### data_clean.py:
 1. get_symbols: 返回特殊符号集合
@@ -14,4 +15,7 @@
 1. save_word_dict：将单词、序号写入文件
 2. read_data：读取data_clean.py中得到的3个文件
 3. build_dictionary：按词频或原始顺序创建单词/序号字典
-# Word2Vec
+#### getEmbedding.py:
+1. 使用gensim训练word2vec和fasttext词向量
+2. 保存模型
+3. 保存词-词向量矩阵
